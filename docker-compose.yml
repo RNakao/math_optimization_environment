@@ -1,0 +1,15 @@
+version: '3'
+services:
+    app:
+        build: .
+        command: jupyter notebook --port=8888 --ip=0.0.0.0 --allow-root --NotebookApp.token=''
+        volumes:
+            - ./:/app
+            - site-packages:/usr/local/lib/python3.7/site-packages
+        ports:
+            - 8888:8888
+        tty: true
+        stdin_open: true
+volumes:
+    site-packages:
+        driver: local

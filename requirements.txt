@@ -1,0 +1,22 @@
+jupyter
+ipython
+notebook
+pandas
+cython
+# cvxopt
+pulp
+joblib
+matplotlib
+seaborn
+numpy
+flask
+lxml
+requests
+jupyterthemes
+
+pycddlib
+vpython
+networkx
+scipy
+sympy
+PICOS
