@@ -5,7 +5,7 @@
 1. Dockerをインストール
 https://matsuand.github.io/docs.docker.jp.onthefly/desktop/mac/install/
 
-2. コンテナをbuild (約10分)
+2. コンテナをbuild (約15分)
     ```
     $ git clone git@github.com:RNakao/math_optimization_environment.git
     $ cd math_optimization_environment
